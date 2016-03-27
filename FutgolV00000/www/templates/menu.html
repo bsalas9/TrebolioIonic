@@ -1,0 +1,70 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-header-bar class="bar-positive" >
+      <h1 class="title">FutGol</h1>
+    </ion-header-bar>
+    <ion-content>
+        <!--
+      <ion-list>
+        <ion-item menu-close ng-click="login()">
+          Noticias
+        </ion-item>
+        <ion-item menu-close href="#/app/search">
+          Posiciones
+        </ion-item>
+        <ion-item menu-close href="#/app/browse">
+          Jornadas
+        </ion-item>
+        <ion-item menu-close href="#/app/playlists">
+          Goleadores
+        </ion-item>
+        <ion-item menu-close href="#/app/playlists">
+          Información
+        </ion-item>
+      </ion-list>
+      -->
+      
+<div class="list">
+
+  <a class="item item-icon-left" menu-close href="#/app/browse">
+    <i ion class="icon ion-android-clipboard"></i>
+    Noticias
+  </a>
+
+  <a class="item item-icon-left" menu-close href="#/app/playlists">
+    <i class="icon ion-trophy"></i>
+    Posiciones
+  </a>
+
+  <a class="item item-icon-left" menu-close href="#/app/playlists">
+    <i class="icon ion-calendar"></i>
+    Jornadas
+  </a>
+
+  <a class="item item-icon-left" menu-close href="#/app/playlists">
+    <i class="icon ion-ios-football"></i>
+    Goleadores
+  </a>
+  
+  <a class="item item-icon-left" menu-close href="#/app/playlists">
+    <i class="icon ion-information-circled"></i>
+    Información
+  </a>
+
+</div>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

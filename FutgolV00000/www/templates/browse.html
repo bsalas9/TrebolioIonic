@@ -1,0 +1,15 @@
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+<ion-view view-title="News">
+  <ion-content>
+    <ion-list>
+     <!-- <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.title}}">
+        {{playlist.title}}
+      </ion-item>-->
+      
+      <ion-item ng-repeat="post in posts" href="#/app/playlists/{{playlist.company}}">
+        <h2>{{post.company}}</h2>
+			<p>{{post.name}}</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

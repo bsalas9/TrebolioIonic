@@ -1,0 +1,12 @@
+{
+  "name": "FutgolV00000",
+  
+   "app_id": "", 
+   "proxies": [
+    {
+      "path": "/Endpoints",
+      "proxyUrl": "http://futgol.x10host.com/Futgol/Endpoints"
+    }
+  ]
+
+}
